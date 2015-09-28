@@ -17258,7 +17258,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC1" library="linear" deviceset="LM386?-*" device="M" technology="1" value="LM386"/>
 <part name="C1" library="rcl" deviceset="CPOL-US" device="E3.5-8" value="220uF"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0603" value="104"/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="503"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="473"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="10"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="U$1" library="bt" deviceset="VCC" device="" value=""/>
@@ -17284,7 +17284,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="159.258" y="24.13" size="3.81" layer="94">eeZeeAmp</text>
-<text x="231.14" y="24.13" size="3.81" layer="94">R0.2</text>
+<text x="231.14" y="24.13" size="3.81" layer="94">R0.2a</text>
 <wire x1="99.06" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="119.38" y1="134.62" x2="119.38" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="119.38" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="97" style="shortdash"/>

@@ -14,14 +14,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -136,7 +136,7 @@
 <wire x1="17.78" y1="13.716" x2="1.016" y2="13.716" width="0" layer="20"/>
 <wire x1="1.016" y1="13.716" x2="0" y2="12.7" width="0" layer="20"/>
 <text x="12.827" y="4.064" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">eeZeeAmp</text>
-<text x="8.255" y="12.319" size="1.016" layer="25" font="vector" ratio="12">R0.2</text>
+<text x="8.255" y="12.319" size="1.016" layer="25" font="vector" ratio="12">R0.2a</text>
 <text x="15.494" y="0.635" size="0.9652" layer="25" font="vector" ratio="12" rot="R90">bot-thoughts.com</text>
 <circle x="10.287" y="2.159" radius="0.254" width="0.4064" layer="21"/>
 <text x="3.937" y="4.064" size="1.016" layer="22" font="vector" ratio="12" rot="MR90">GAIN</text>
@@ -271,13 +271,13 @@
 <vertex x="9.86680625" y="2.032" curve="247.473915"/>
 <vertex x="9.2186" y="1.598903125"/>
 </polygon>
-<text x="8.255" y="12.319" size="1.016" layer="121" font="vector" ratio="20">R0.2</text>
+<text x="8.255" y="12.319" size="1.016" layer="121" font="vector" ratio="20">R0.2a</text>
 <text x="15.494" y="0.635" size="0.9652" layer="121" font="vector" ratio="22" rot="R90">bot-thoughts.com</text>
 <text x="14.224" y="6.477" size="0.8128" layer="121" font="vector" ratio="25" rot="R90">CC-BY-SA</text>
 <text x="12.827" y="4.064" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">eeZeeAmp</text>
 <text x="8.456396875" y="7.9446625" size="0.8128" layer="121" font="vector" ratio="25" rot="R90">220uF</text>
 <text x="4.699" y="3.048" size="0.8128" layer="121" font="vector" ratio="25" rot="R270">104</text>
-<text x="11.684" y="7.493" size="0.8128" layer="121" font="vector" ratio="25" rot="R90">503</text>
+<text x="11.684" y="7.493" size="0.8128" layer="121" font="vector" ratio="25" rot="R90">473</text>
 <text x="3.175" y="12.446" size="0.8128" layer="121" font="vector" ratio="25">106</text>
 <text x="5.715" y="12.446" size="0.8128" layer="121" font="vector" ratio="25">106</text>
 <text x="4.699" y="6.858" size="0.8128" layer="121" font="vector" ratio="25" rot="R270">104</text>
@@ -2780,7 +2780,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C2" library="rcl" package="C0603" value="104" x="4.064" y="1.905" smashed="yes" rot="R270">
 <attribute name="VALUE" x="4.699" y="3.048" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C3" library="rcl" package="C0603" value="503" x="12.319" y="8.382" smashed="yes" rot="R90">
+<element name="C3" library="rcl" package="C0603" value="473" x="12.319" y="8.382" smashed="yes" rot="R90">
 <attribute name="VALUE" x="11.684" y="7.493" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C4" library="rcl" package="C1206" value="106" x="4.318" y="10.033" smashed="yes" rot="R90">
