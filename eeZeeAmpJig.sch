@@ -13314,7 +13314,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="210.82" y="134.112" size="1.778" layer="97">2 x 15k</text>
 <text x="204.47" y="131.064" size="1.778" layer="97">150 + (R1 || 1.35K)</text>
 <wire x1="204.47" y1="133.604" x2="224.79" y2="133.604" width="0.1524" layer="97"/>
-<text x="159.004" y="121.158" size="1.778" layer="97">GAIN = 40.5</text>
+<text x="159.004" y="121.158" size="1.778" layer="97">GAIN = 41.5</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
