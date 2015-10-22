@@ -2,27 +2,42 @@
 
 ## Quick Start
 
- * Install pin headers (see How to Assemble below)
- * Install 200uF output capacitor
- * Connect speaker to SP+ and GND
- * Connect potentiometer to VOL
- * Connect audio input positive to IN+, negative to GND
- * Connect 4-12V positive to V+, negative to GND
+ * Install pin headers (see *How to Assemble* below)
+ * Install 200uF output capacitor (**note polarity!**)
+ * Connect speaker to ```SP+``` and ```GND```
+ * Connect potentiometer to the 3 ```VOL``` pins
+ * Connect audio input positive to ```IN+```, negative to ```GND```
+ * Connect 4-12V positive to ```V+```, negative to ```GND```
 
 ## Introduction
+If you've ever created a project that generates sound, you'll appreciate eeZeeAmp, which makes it convenient and easy to add an audio amplifier to your breadboard. It's extremely compact, clearly labeled, and is simple and convenient to use.
 
-If you've ever created a project that generates sound, you'll appreciate eeZeeAmp, which makes it convenient and easy to add an audio amplifier to your breadboard.
-
-The board is based on an LM386 audio amplifier and provides breakout pins for volume, gain, input, output, and power as well as supporting circuitry: volume circuit, bypass capacitors, audio output AC coupled capacitor, and high pass filter.
+The board is based on an LM386 audio amplifier and provides breakout pins for volume, gain, input, output, and power as well as supporting circuitry: capacitatively coupled input, volume circuit, bypass capacitors, AC-coupled audio-grade output capacitor, and high pass filter.
 
 ## About the LM386
-
-The LM386 is a popular, low-voltage, low-distortion audio power amplifier with configurable gain from 20X-200X. It uses ground-referenced inputs and the output is conveniently biased to half the supply voltage. The chip's quiescent power drain is 24mW at 6V. Low distortion of 0.2% THD (Gain = 20, Vin = 6V, Rload = 8Ω, PO = 125mW, f = 1kHz).
+The LM386 is a popular, low-voltage, low-distortion audio power amplifier with configurable gain from 20X-200X. It uses ground-referenced inputs and the output is conveniently biased to half the supply voltage. The chip's quiescent power drain is 24mW at 6V. Low distortion of 0.2% THD (Gain = 20, Vin = 6V, Rload = 8Ω, PO = 125mW, f = 1kHz). Power supply rejection ratio (PSRR) of 50dB referred to output (Vin = 6V, f = 1 kHz, pins 1 and 8 open, and with bypass capacitor of 10uF pre-installed on the board).
 
 Datasheet: [lm386.pdf](http://www.ti.com/lit/ds/symlink/lm386.pdf)
 
-## Setting Gain
+## Power Supply
+Supply 4-12V of power to the board. Connect the positive side of your supply to ```V+``` and the negative supply to one of the three ```GND``` pins.
 
+## Speaker
+You can use an 4-16Ω speaker for output, but you'll get more power output with less power dissipation using an 8-16Ω speaker.
+
+## Audio Input
+Connect the positive audio signal
+
+## Potentiometer
+A 100K potentiometer will work best. Connect the wiper of the potentiometer (pot) to the ```> VOL``` pin and connect the other two pot leads to the ```VOL``` pins.
+
+### Linear Taper
+A linear taper potentiometer has a resistance that varies linearly with wiper position. While it works reasonably well with the LM386, our hearing isn't linear in its sensitivity.
+
+### Audio Taper
+An audio taper pot has a resistance that varies non-linearly to match our hearing. To our ears, such a pot produces *loudness* that appears to vary linearly with wiper position.
+
+## Setting Gain
 By default, with no external components, gain factor is set to 20 (26 dB).
 For a gain of 200, connect a 10uF capacitor between pins 1 and 8.
 
