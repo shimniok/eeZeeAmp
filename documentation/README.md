@@ -31,10 +31,18 @@ Datasheet: [lm386.pdf](http://www.ti.com/lit/ds/symlink/lm386.pdf)
 Supply 4-12V of power to the board. Connect the positive side of your supply to ```V+``` and the negative supply to one of the three ```GND``` pins.
 
 ## Speaker
-You can use an 4-16Ω speaker for output, but you'll get more power output with less power dissipation using an 8-16Ω speaker.
+While the datasheet has more details on what speakers you can get away with I'd suggest sticking to an 8Ω speaker as an efficient choice that maximizes power. Match the speaker power rating to your input supply voltage (see table below).
+
+| Input Voltage | Speaker Power |
+| :---: | :---: |
+| 6V | 0.4W |
+| 9V | 0.8W |
+| 12V | 0.9W |
 
 ## Audio Input
-Connect the positive audio signal
+Connect the positive audio signal to the ```IN+``` pin on the board. Connect the negative signal to one of the ```GND``` pins.
+
+The board features an AC-coupling capacitor which removes the DC component from the input signal and ensures that the board is compatible with ground-referenced and AC input signals (where voltage swings positive and negative).
 
 ## Potentiometer
 A 10k potentiometer will work best. Connect the wiper of the potentiometer (pot) to the ```> VOL``` pin and connect the other two pot leads to the ```VOL``` pins.
