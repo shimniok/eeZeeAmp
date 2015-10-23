@@ -29,7 +29,7 @@ You can use an 4-16Ω speaker for output, but you'll get more power output with
 Connect the positive audio signal
 
 ## Potentiometer
-A 100K potentiometer will work best. Connect the wiper of the potentiometer (pot) to the ```> VOL``` pin and connect the other two pot leads to the ```VOL``` pins.
+A 10k potentiometer will work best. Connect the wiper of the potentiometer (pot) to the ```> VOL``` pin and connect the other two pot leads to the ```VOL``` pins.
 
 ### Linear Taper
 A linear taper potentiometer has a resistance that varies linearly with wiper position. While it works reasonably well with the LM386, our hearing isn't linear in its sensitivity.
@@ -43,7 +43,7 @@ For a gain of 200, connect a 10uF capacitor between pins 1 and 8.
 
 To select a gain between 20 (26 dB) and 200 (46 dB), place a resistor in series with the capacitor between pins 1 and 8. Use the table below to select the appropriate resistor value to achieve the desired gain.
 
-For adjustable gain, you can use a 100K potentiometer instead of the fixed resistor. Or, you can capacitively couple a resistor or FET from pin 1 to ground.
+For adjustable gain, you can use a 10k potentiometer instead of the fixed resistor. Or, you can capacitively couple a resistor or FET from pin 1 to ground.
 
 | Desired Gain | Closest Resistor (Ω) | True Gain Factor | True Gain (dB) |
 | :---: | :---: | :---: | :---: |
