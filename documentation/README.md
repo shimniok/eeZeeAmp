@@ -1,5 +1,9 @@
 # eeZeeAmp User Guide
 
+Add clean audio amplification to your next project with eeZeeAmp, the breadboard friendly, super-compact, amplifier board based on the popular LM386.
+
+Want one? [Buy now on Tindie](https://www.tindie.com/products/bot_thoughts/the-better-lm386-for-breadboard/).
+
 ## Quick Start
 
  * Install pin headers (see *How to Assemble* below)
@@ -12,10 +16,14 @@
 ## Introduction
 If you've ever created a project that generates sound, you'll appreciate eeZeeAmp, which makes it convenient and easy to add an audio amplifier to your breadboard. It's extremely compact, clearly labeled, and is simple and convenient to use.
 
-The board is based on an LM386 audio amplifier and provides breakout pins for volume, gain, input, output, and power as well as supporting circuitry: capacitatively coupled input, volume circuit, bypass capacitors, AC-coupled audio-grade output capacitor, and high pass filter.
+The board is based on an LM386 audio amplifier and provides breakout pins for volume, gain, input, output, and power as well as supporting circuitry: capacitively-coupled input, volume circuit, bypass capacitors, AC-coupled audio-grade output capacitor, and high pass filter.
 
 ## About the LM386
-The LM386 is a popular, low-voltage, low-distortion audio power amplifier with configurable gain from 20X-200X. It uses ground-referenced inputs and the output is conveniently biased to half the supply voltage. The chip's quiescent power drain is 24mW at 6V. Low distortion of 0.2% THD (Gain = 20, Vin = 6V, Rload = 8Ω, PO = 125mW, f = 1kHz). Power supply rejection ratio (PSRR) of 50dB referred to output (Vin = 6V, f = 1 kHz, pins 1 and 8 open, and with bypass capacitor of 10uF pre-installed on the board).
+The LM386 is a popular, low-voltage, low-distortion audio power amplifier with configurable gain from 20X-200X. It uses ground-referenced inputs and the output is conveniently biased to half the supply voltage.
+
+The chip's quiescent power drain is 24mW at 6V. Low distortion of 0.2% THD (Gain = 20, Vin = 6V, Rload = 8Ω, PO = 125mW, f = 1kHz).
+
+Power supply rejection ratio (PSRR) of 50dB referred to output (Vin = 6V, f = 1 kHz, pins 1 and 8 open, and with bypass capacitor of 10uF pre-installed on the board).
 
 Datasheet: [lm386.pdf](http://www.ti.com/lit/ds/symlink/lm386.pdf)
 
